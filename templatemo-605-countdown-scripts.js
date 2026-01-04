@@ -34,10 +34,10 @@ function createParticles() {
    }
 }
 
-// Countdown Timer - Target: December 25, 2025 at 6:00 PM
+// Countdown Timer - Target: December 25, 2026 at 12:00 AM
 
 function updateCountdown() {
-   const christmas = new Date('December 25, 2025 18:00:00').getTime();
+   const christmas = new Date('December 25, 2026 00:00:00').getTime();
    const now = new Date().getTime();
    const distance = christmas - now;
 
@@ -137,4 +137,5 @@ document.addEventListener('DOMContentLoaded', () => {
       handleScroll();
       scrollSpy();
    });
+
 });
